@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "eslint --cache *.js src && echo ✓"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-fnd": "github:FND/eslint-config"
+  }
+}
