@@ -6,7 +6,7 @@ Getting Started
 
 * install this repository:
 
-        $ npm install --save-dev github:FND/eslint-config
+        $ npm install --save-dev eslint-config
 
 * create a file `.eslintrc` with the following contents:
 
