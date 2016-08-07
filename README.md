@@ -12,6 +12,12 @@ Getting Started
 
         extends: fnd
 
+  alternatively, use `package.json`:
+
+        "eslintConfig": {
+            "extends": "fnd"
+        }
+
 * run ESLint on your source files and directories:
 
         $ eslint --cache *.js src
