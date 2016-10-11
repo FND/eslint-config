@@ -9,6 +9,7 @@ module.exports = {
 	rules: {
 		"linebreak-style": ["error", "unix"],
 		indent: ["error", "tab"],
+		"no-tabs": "off",
 		"max-len": ["warn", 90, 4],
 		quotes: ["error", "double", "avoid-escape"],
 		semi: ["error", "always"],

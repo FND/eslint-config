@@ -4,7 +4,7 @@ FND's ESLint configuration
 Getting Started
 ---------------
 
-* install this repository:
+* install this package:
 
         $ npm install --save-dev eslint-config-fnd
 

@@ -2,7 +2,7 @@
   "name": "eslint-config-fnd",
   "description": "FND's ESLint configuration",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "FND/eslint-config",
   "main": ".eslintrc.js",
   "dependencies": {
