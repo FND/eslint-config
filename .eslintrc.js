@@ -14,7 +14,7 @@ module.exports = {
 		quotes: ["error", "double", "avoid-escape"],
 		semi: ["error", "always"],
 		"no-var": ["error"],
-		"no-console": ["warn"],
+		"no-console": ["error", { "allow": ["warn", "error"] }],
 		"space-before-function-paren": ["error", "never"],
 		"object-curly-spacing": ["error", "always"],
 		"keyword-spacing": ["error", {
