@@ -8,7 +8,12 @@ module.exports = {
 	},
 	rules: {
 		"linebreak-style": ["error", "unix"],
-		indent: ["error", "tab"],
+		indent: ["error", "tab", {
+			outerIIFEBody: 0,
+			FunctionDeclaration: { parameters: 2 },
+			FunctionExpression: { parameters: 2 },
+			CallExpression: { arguments: 2 }
+		}],
 		"no-tabs": "off",
 		"max-len": ["warn", 90, 4],
 		quotes: ["error", "double", "avoid-escape"],
