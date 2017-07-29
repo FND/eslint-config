@@ -22,6 +22,4 @@ Getting Started
 
         $ eslint --cache *.js src
 
-    (cf. script command in `samples/package.json`)
-
 * optionally adopt this repository's [`.editorconfig`](http://editorconfig.org)
