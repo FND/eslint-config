@@ -12,6 +12,9 @@
 		"url": "https://github.com/FND/eslint-config/issues"
 	},
 	"main": ".eslintrc.js",
+	"scripts": {
+		"test": "eslint --cache --ignore-pattern '!.eslintrc.js' .eslintrc.js && echo ✓"
+	},
 	"dependencies": {
 		"eslint": ">=3",
 		"eslint-config-standard": ">=10",

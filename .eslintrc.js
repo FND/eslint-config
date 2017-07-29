@@ -35,4 +35,4 @@ module.exports = {
 		"dot-location": ["error", "object"],
 		"arrow-parens": ["error", "as-needed"]
 	}
-}
+};
