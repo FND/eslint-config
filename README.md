@@ -4,6 +4,8 @@ FND's ESLint configuration
 Getting Started
 ---------------
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/FND/eslint-config.svg)](https://greenkeeper.io/)
+
 * install this package:
 
         $ npm install --save-dev eslint-config-fnd
