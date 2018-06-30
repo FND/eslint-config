@@ -21,7 +21,11 @@ module.exports = {
 		semi: ["error", "always"],
 		"no-var": ["error"],
 		"no-console": ["error", { "allow": ["warn", "error"] }],
-		"space-before-function-paren": ["error", "never"],
+		"space-before-function-paren": ["error", {
+			"anonymous": "never",
+			"named": "never",
+			"asyncArrow": "always"
+		}],
 		"object-curly-spacing": ["error", "always"],
 		"keyword-spacing": ["error", {
 			overrides: {
