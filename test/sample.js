@@ -11,3 +11,9 @@ function info(foo, bar,
 		{ baz } = {}) {
 	return null;
 }
+
+class Foo {
+	help() {
+		// …
+	}
+}
