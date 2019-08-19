@@ -21,7 +21,7 @@
 		"eslint-plugin-import": ">=2.18.0",
 		"eslint-plugin-node": ">=9.1.0",
 		"eslint-plugin-promise": ">=4",
-		"eslint-plugin-standard": ">=4"
+		"eslint-plugin-standard": "4.0.0"
 	},
 	"devDependencies": {
 		"release-util-fnd": "^1.1.1"
