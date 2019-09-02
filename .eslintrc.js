@@ -19,6 +19,7 @@ module.exports = {
 		"max-len": ["warn", 90, 4],
 		quotes: ["error", "double", "avoid-escape"],
 		semi: ["error", "always"],
+		"no-void": "off",
 		"no-var": ["error"],
 		"prefer-const": "off",
 		"no-console": ["error", { allow: ["warn", "error"] }],

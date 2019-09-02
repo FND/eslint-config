@@ -2,7 +2,7 @@
 	"name": "eslint-config-fnd",
 	"description": "FND's ESLint configuration",
 	"license": "MIT",
-	"version": "1.7.0",
+	"version": "1.8.0",
 	"homepage": "https://github.com/FND/eslint-config",
 	"repository": {
 		"type": "git",
@@ -17,9 +17,9 @@
 	},
 	"dependencies": {
 		"eslint": ">=6",
-		"eslint-config-standard": ">=13",
-		"eslint-plugin-import": ">=2.18.0",
-		"eslint-plugin-node": ">=9.1.0",
+		"eslint-config-standard": ">=14",
+		"eslint-plugin-import": ">=2.18.2",
+		"eslint-plugin-node": ">=9.2.0",
 		"eslint-plugin-promise": ">=4",
 		"eslint-plugin-standard": ">=4"
 	},
