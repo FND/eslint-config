@@ -19,7 +19,7 @@
 		"eslint": ">=6",
 		"eslint-config-standard": ">=14",
 		"eslint-plugin-import": ">=2.18.2",
-		"eslint-plugin-node": ">=9.2.0",
+		"eslint-plugin-node": ">=10.0.0",
 		"eslint-plugin-promise": ">=4",
 		"eslint-plugin-standard": ">=4"
 	},
