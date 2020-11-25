@@ -15,3 +15,9 @@ class Foo {
 		this.forEach(item => void this.process(item));
 	}
 }
+
+async function* walk(rootDir) {
+	if(Math.random() > 0.5) {
+		yield* walk(rootDir);
+	}
+}

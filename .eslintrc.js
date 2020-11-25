@@ -38,6 +38,8 @@ module.exports = {
 				catch: { after: false }
 			}
 		}],
+		"generator-star-spacing": ["error", "after"],
+		"yield-star-spacing": ["error", "after"],
 		"operator-linebreak": ["error", "after"],
 		"dot-location": ["error", "object"],
 		"arrow-parens": ["error", "as-needed"]
