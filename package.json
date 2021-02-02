@@ -2,7 +2,7 @@
 	"name": "eslint-config-fnd",
 	"description": "FND's ESLint configuration",
 	"license": "MIT",
-	"version": "1.9.1",
+	"version": "1.10.0",
 	"homepage": "https://github.com/FND/eslint-config",
 	"repository": {
 		"type": "git",

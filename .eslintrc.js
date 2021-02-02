@@ -41,6 +41,7 @@ module.exports = {
 		"generator-star-spacing": ["error", "after"],
 		"yield-star-spacing": ["error", "after"],
 		"operator-linebreak": ["error", "after"],
+		"multiline-ternary": "off",
 		"dot-location": ["error", "object"],
 		"arrow-parens": ["error", "as-needed"]
 	}
