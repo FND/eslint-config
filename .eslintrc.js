@@ -11,6 +11,7 @@ module.exports = {
 		indent: ["error", "tab", {
 			outerIIFEBody: 0,
 			ImportDeclaration: 2,
+			ArrayExpression: 2,
 			FunctionDeclaration: { parameters: 2 },
 			FunctionExpression: { parameters: 2 },
 			CallExpression: { arguments: 2 }
