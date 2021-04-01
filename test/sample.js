@@ -1,12 +1,9 @@
 /* eslint-disable no-unused-vars */
 import { app } from "web-app";
 
-let DEFAULTS = ["foo", "bar",
-		"baz"];
-
 app.get("/", async (req, res, dummy) => {
 	return dummy.condition ? dummy.simple :
-		dummy.complex(DEFAULTS);
+		dummy.complex(dummy.args);
 });
 
 function info(foo, bar,
